@@ -1,7 +1,3 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-// List all plugins of the app and set apply to false
-// apply the plugins in the module build file
-plugins {
-    alias(libs.plugins.androidApplication) apply false
-}
+// plugins are declared in the build file of the module
